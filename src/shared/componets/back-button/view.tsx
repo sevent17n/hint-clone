@@ -9,7 +9,12 @@ export const BackButton: FC = () => {
   const router = useRouter();
 
   return (
-    <button onClick={() => router.back()} className={styles.button}>
+    <button
+      onClick={() => {
+        router.back();
+      }}
+      className={styles.button}
+    >
       <Ic_Arrow />
     </button>
   );

@@ -1,0 +1,1 @@
+export { GenderPage } from "./view";

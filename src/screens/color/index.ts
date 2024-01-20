@@ -1,0 +1,1 @@
+export { ColorPage } from "./view";

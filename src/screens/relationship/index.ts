@@ -1,0 +1,1 @@
+export { RelationShipPage } from "./view";

@@ -17,6 +17,7 @@ This project is a clone of the [hint](https://intro.hint.app/palmistry/welcome) 
 3. [TypeScript](https://www.typescriptlang.org/)
 4. [StoryBook](https://storybook.js.org/docs/get-started/install)
 5. [Scss](https://sass-lang.com)
+6. [Framer Motion.](https://www.framer.com/motion/)
 
 ## Package Manager
 

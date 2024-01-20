@@ -1,0 +1,1 @@
+export { StageBarProvider } from "./view";

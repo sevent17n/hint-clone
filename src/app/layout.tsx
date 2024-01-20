@@ -4,8 +4,13 @@ import { Inter } from "next/font/google";
 import "@/assets/styles/normalize.css";
 import "@/assets/styles/reset.css";
 import { MainContainer } from "@/shared/containers/main";
+import { StageBarProvider } from "@/widgets/stage-bar-provider";
+import { ContentContainer } from "@/shared/containers/content";
 
-const inter = Inter({ subsets: ["latin"], weight: [] });
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+});
 
 export const metadata: Metadata = {
   title: "Hint Clone",
@@ -22,7 +27,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <MainContainer>
           <Header />
-          {children}
+          <StageBarProvider>
+            <ContentContainer>{children}</ContentContainer>
+          </StageBarProvider>
         </MainContainer>
       </body>
     </html>

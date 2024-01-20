@@ -1,0 +1,1 @@
+export { PalmInfoAboutPage } from "./view";

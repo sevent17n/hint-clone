@@ -2,10 +2,12 @@
 
 import { ElementPage } from "@/screens/element";
 
-export default async function Element() {
+const Element = () => {
   return (
     <div>
       <ElementPage />
     </div>
   );
-}
+};
+
+export default Element;

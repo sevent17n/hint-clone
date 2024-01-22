@@ -2,10 +2,12 @@
 
 import { DecisionsPage } from "@/screens/decisions";
 
-export default async function Desigions() {
+const Decisions = () => {
   return (
     <div>
       <DecisionsPage />
     </div>
   );
-}
+};
+
+export default Decisions;

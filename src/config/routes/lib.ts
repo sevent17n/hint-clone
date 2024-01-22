@@ -17,3 +17,5 @@ export const COLOR_ROUTE: string = "/color";
 export const DECISIONS_ROUTE: string = "/decisions";
 
 export const SCAN_ROUTE: string = "/scan";
+
+export const TAKE_A_PHOTO_ROUTE: string = "/take-a-photo";

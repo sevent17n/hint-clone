@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import "@/assets/styles/normalize.css";
 import "@/assets/styles/reset.css";
 import { MainContainer } from "@/shared/containers/main";
-import { StageBarProvider } from "@/widgets/stage-bar-provider";
+import { StageBar } from "@/widgets/stage-bar";
 import { ContentContainer } from "@/shared/containers/content";
 
 const inter = Inter({
@@ -27,9 +27,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <MainContainer>
           <Header />
-          <StageBarProvider>
-            <ContentContainer>{children}</ContentContainer>
-          </StageBarProvider>
+          <StageBar />
+          <ContentContainer>{children}</ContentContainer>
         </MainContainer>
       </body>
     </html>

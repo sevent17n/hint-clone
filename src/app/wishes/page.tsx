@@ -2,10 +2,12 @@
 
 import { WishesPage } from "@/screens/wishes";
 
-export default async function Wishes() {
+const Wishes = () => {
   return (
     <div>
       <WishesPage />
     </div>
   );
-}
+};
+
+export default Wishes;

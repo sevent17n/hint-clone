@@ -2,10 +2,12 @@
 
 import { RelationShipPage } from "@/screens/relationship/view";
 
-export default async function RelationShip() {
+const RelationShip = () => {
   return (
     <div>
       <RelationShipPage />
     </div>
   );
-}
+};
+
+export default RelationShip;

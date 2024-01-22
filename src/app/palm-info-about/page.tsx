@@ -2,10 +2,12 @@
 
 import { PalmInfoAboutPage } from "@/screens/palm-info-about";
 
-export default async function PalmInfoAbout() {
+const PalmInfoAbout = () => {
   return (
     <div>
       <PalmInfoAboutPage />
     </div>
   );
-}
+};
+
+export default PalmInfoAbout;

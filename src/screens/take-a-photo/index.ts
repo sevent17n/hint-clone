@@ -1,0 +1,1 @@
+export { TakeAPhotoPage } from "./view";

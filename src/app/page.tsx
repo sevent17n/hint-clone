@@ -1,10 +1,12 @@
 "use server";
 import { HomePage } from "@/screens/home";
 
-export default async function Home() {
+const Home = () => {
   return (
     <div>
       <HomePage />
     </div>
   );
-}
+};
+
+export default Home;

@@ -1,0 +1,1 @@
+export { PrivacyWarning } from "./view";

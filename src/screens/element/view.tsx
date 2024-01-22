@@ -9,10 +9,11 @@ import Ic_Water from "@/assets/icons/ic_water.svg";
 import Ic_Earh from "@/assets/icons/ic_earth.svg";
 import Ic_Fire from "@/assets/icons/ic_fire.svg";
 import Ic_Air from "@/assets/icons/ic_air.svg";
+import Image from "next/image";
 
 export const ElementPage: FC = () => {
   return (
-    <div style={{ padding: "0 32px" }}>
+    <div>
       <StyledText variant="h2">
         Which element resonates with you the most?
       </StyledText>
@@ -20,7 +21,7 @@ export const ElementPage: FC = () => {
         <StyledButton
           commonColor
           styles={{ marginTop: 26, textAlign: "left" }}
-          icon={<Ic_Earh />}
+          icon={<Image src={Ic_Earh} alt={"Earth Element"} />}
         >
           <div>Earth</div>
         </StyledButton>
@@ -28,7 +29,7 @@ export const ElementPage: FC = () => {
       <Link href={COLOR_ROUTE} style={{ textDecoration: "none" }}>
         <StyledButton
           styles={{ marginTop: 12, textAlign: "left" }}
-          icon={<Ic_Water />}
+          icon={<Image src={Ic_Water} alt={"Water Element"} />}
           commonColor
         >
           <div>Water</div>
@@ -37,7 +38,7 @@ export const ElementPage: FC = () => {
       <Link href={COLOR_ROUTE} style={{ textDecoration: "none" }}>
         <StyledButton
           styles={{ marginTop: 12, textAlign: "left" }}
-          icon={<Ic_Air />}
+          icon={<Image src={Ic_Air} alt={"Air Element"} />}
           commonColor
         >
           <div>Air</div>
@@ -46,7 +47,7 @@ export const ElementPage: FC = () => {
       <Link href={COLOR_ROUTE} style={{ textDecoration: "none" }}>
         <StyledButton
           styles={{ marginTop: 12, textAlign: "left" }}
-          icon={<Ic_Fire />}
+          icon={<Image src={Ic_Fire} alt={"Fire Element"} />}
           commonColor
         >
           <div>Fire</div>

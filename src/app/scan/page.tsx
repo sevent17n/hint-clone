@@ -1,5 +1,9 @@
 "use server";
 
-export default async function Scan() {
-  return <div></div>;
-}
+import { ScanPage } from "@/screens/scan";
+
+const Scan = () => {
+  return <ScanPage />;
+};
+
+export default Scan;

@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { FC } from "react";
 import Ic_Arrow from "@/assets/icons/ic_arrow.svg";
 import styles from "./styles.module.scss";
+import Image from "next/image";
 
 export const BackButton: FC = () => {
   const router = useRouter();
@@ -15,7 +16,7 @@ export const BackButton: FC = () => {
       }}
       className={styles.button}
     >
-      <Ic_Arrow />
+      <Image src={Ic_Arrow} alt={"Back"} />
     </button>
   );
 };

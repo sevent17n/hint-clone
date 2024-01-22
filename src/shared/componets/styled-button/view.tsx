@@ -1,3 +1,5 @@
+"use client";
+
 import { FC } from "react";
 import { StyledButtonProps } from "./types";
 import className from "./styles.module.scss";

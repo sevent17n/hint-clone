@@ -1,10 +1,12 @@
 "use server";
 import { ColorPage } from "@/screens/color";
 
-export default async function Color() {
+const Color = () => {
   return (
     <div>
       <ColorPage />
     </div>
   );
-}
+};
+
+export default Color;

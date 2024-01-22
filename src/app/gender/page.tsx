@@ -1,10 +1,12 @@
 "use server";
 import { GenderPage } from "@/screens/gender";
 
-export default async function Gender() {
+const Gender = () => {
   return (
     <div>
       <GenderPage />
     </div>
   );
-}
+};
+
+export default Gender;

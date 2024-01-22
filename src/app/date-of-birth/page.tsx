@@ -1,10 +1,12 @@
 "use server";
 import { DateOfBirthPage } from "@/screens/date-of-birth/view";
 
-export default async function DateOfBirth() {
+const DateOfBirth = () => {
   return (
     <div>
       <DateOfBirthPage />
     </div>
   );
-}
+};
+
+export default DateOfBirth;

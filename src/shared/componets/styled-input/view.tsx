@@ -1,6 +1,7 @@
 import { FC, forwardRef } from "react";
 import { StyledInputProps, StyledInputPropsWithRef } from "./types";
 import styles from "./styles.module.scss";
+
 export const StyledInput: FC<StyledInputPropsWithRef> = forwardRef<
   HTMLInputElement,
   StyledInputProps
@@ -37,3 +38,5 @@ export const StyledInput: FC<StyledInputPropsWithRef> = forwardRef<
     );
   }
 );
+
+StyledInput.displayName = "StyledInput";

@@ -10,6 +10,10 @@ Application architecture based on [Feature Sliced](https://feature-sliced.design
 
 This project is a clone of the [hint](https://intro.hint.app/palmistry/welcome) web application.
 
+## Link
+
+[Production deployment](https://hint-clone-git-main-nikitasdev.vercel.app)
+
 ## Tech Stack
 
 1. [Next.js 14](https://nextjs.org/)

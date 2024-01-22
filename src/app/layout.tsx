@@ -6,6 +6,7 @@ import "@/assets/styles/reset.css";
 import { MainContainer } from "@/shared/containers/main";
 import { StageBar } from "@/widgets/stage-bar";
 import { ContentContainer } from "@/shared/containers/content";
+import { ScanResultProvider } from "@/shared/context/scan-result-context";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -28,7 +29,9 @@ export default function RootLayout({
         <MainContainer>
           <Header />
           <StageBar />
-          <ContentContainer>{children}</ContentContainer>
+          <ContentContainer>
+            <ScanResultProvider>{children}</ScanResultProvider>
+          </ContentContainer>
         </MainContainer>
       </body>
     </html>

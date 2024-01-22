@@ -6,7 +6,7 @@ import Instructions from "@/assets/images/instructions.jpg";
 import { StyledText } from "@/shared/componets/styled-text";
 import { StyledButton } from "@/shared/componets/styled-button";
 import { PrivacyWarning } from "@/shared/componets/privacy-warning";
-import { UploadModal } from "@/entities/upload-modal";
+import { ScanPalm } from "@/features/scan-palm";
 
 export const TakeAPhoto: FC = () => {
   const [open, setOpen] = useState<boolean>(false);
@@ -24,7 +24,7 @@ export const TakeAPhoto: FC = () => {
         </StyledButton>
         <PrivacyWarning />
       </div>
-      <UploadModal open={open} onClose={() => setOpen(false)} />
+      <ScanPalm open={open} onClose={() => setOpen(false)} />
     </>
   );
 };

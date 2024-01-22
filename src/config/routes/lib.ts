@@ -19,3 +19,5 @@ export const DECISIONS_ROUTE: string = "/decisions";
 export const SCAN_ROUTE: string = "/scan";
 
 export const TAKE_A_PHOTO_ROUTE: string = "/take-a-photo";
+
+export const SCAN_RESULT_ROUTE: string = "/scan-result";

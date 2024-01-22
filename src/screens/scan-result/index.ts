@@ -1,0 +1,1 @@
+export { ScanResultPage } from "./view";

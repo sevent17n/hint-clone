@@ -30,7 +30,7 @@ export const DateSelector: FC<DateSelectorProps> = ({
         />
       </div>
       <div className={styles.input_container}>
-        <p className={styles.text_sm}> Day</p>
+        <p className={styles.text_sm}>Day</p>
         <StyledInput
           onChange={(e) => setDay(e.target.value)}
           value={day}

@@ -1,7 +1,7 @@
-"use client";
+"use server";
 import { ScanResultPage } from "@/screens/scan-result";
 
-export const ScanResult = () => {
+const ScanResult = () => {
   return <ScanResultPage />;
 };
 
